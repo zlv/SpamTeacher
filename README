@@ -1,4 +1,4 @@
-MassDelivery v0.8 (http://sourceforge.net/projects/spamteacher/)
+MassDelivery v0.8
 Программа для рассылки сообщений с произвольного сервера smtp.
 Создатель: Евгений Лежнин(zlv) <z_lezhnin@mail2000.ru>
 Инструкция:
@@ -28,15 +28,7 @@ install:
 uninstall:
 	rm -fr /usr/local/share/MassDelivery
 	rm -f /usr/local/bin/$(TARGET)
-Разработка:
-Программа поддерживает только русский и английский языки, если вы желаете помочь в разработке, либо в переводе, мы всегда вам рады на сайте проекта http://sourceforge.net/projects/spamteacher/, ждём вас.
-содержит только единственный модуль стороннего кода base64, если вы можете разработать свой, всегда пожалуйста.
-Требует доработки и отслеживания ошибок модуль отправки сообщений(send.cpp).
 ...........................
 Program for mass delivery of email through smtp.
 Created by: Yevgeny Lezhnin(zlv): <z_lezhnin@mail2000.ru>
 Program needs qt libraries (http://qt.nokia.com/). Copy all necessary files (MassDelivery, icon.xpm, en.qm, ru.qm, sendEmail.pl, README) in one directory.
-Develop:
-Program needs help in localization and develop, you can join us on sourceforge page http://sourceforge.net/projects/spamteacher/, you are welcome.
-Contain only one module created not by zlv: base64, if you can do alternative for it, you are welcome, too.
-Very need help in send.cpp.
