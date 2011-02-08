@@ -1,0 +1,15 @@
+(todo; sorted by importance; "nk", where k is integer, means, what someone try it; "x" means, "already done"; "ak" -- where k is integer, means, that someone asked about that, k -- how many times)
+1n1a1. error in atachment send (unknown error).
+2n1. change utf8 themes of messages error (don't know how).
+3n1. change all tabs to spaces (I do it little by little).
+4n1. add quote button.
+5n1. return Gtk+ support (use cmake).
+6. add documentation.
+7. add message saving.
+8. start to create mobile version.
+9. add multiple translations.
+10xa1. add multiple translation adding.
+11x. add receivers count.
+12x. add wrong password warning.
+13x. change multipart.
+14x. remove QtGui inclusion in all files.

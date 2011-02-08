@@ -1,0 +1,77 @@
+PROGRAM = SpamTeacher
+SOURCE = $(SOURCE1) $(SOURCE2) $(SOURCE3) $(SOURCE4) $(SOURCE5) $(SOURCE6) $(SOURCE7) $(SOURCE8) $(SOURCE9) $(SOURCEA) $(SOURCEB) $(SOURCEC)
+SOURCE1 = gui.cpp
+SOURCE2 = SenderWindow.cpp
+SOURCE3 = MainWindow.cpp
+SOURCE4 = ../func.cpp
+SOURCE5 = Data.cpp
+SOURCE6 = GenderWindow.cpp
+SOURCE7 = 
+SOURCE8 = ReceiverWindow.cpp
+SOURCE9 = AddReceiverWindow.cpp
+SOURCEA = AtachmentWindow.cpp
+SOURCEB = About.cpp
+SOURCEC = SendWindow.cpp
+HEADER = $(HEADER1) $(HEADER2) $(HEADER3) $(HEADER4) $(HEADER5) $(HEADER6) $(HEADER7) $(HEADER8) $(HEADER9) $(HEADERA) $(HEADERB) $(HEADERC)
+HEADER1 = gui.h
+HEADER2 = SenderWindow.h
+HEADER3 = MainWindow.h
+HEADER4 = ../func.h
+HEADER5 = Data.h
+HEADER6 = GenderWindow.h
+HEADER7 = Receiver.h
+HEADER8 = ReceiverWindow.h
+HEADER9 = AddReceiverWindow.h
+HEADERA = AtachmentWindow.h
+HEADERB = About.h
+HEADERC = SendWindow.h
+OBJECT = $(OBJECT1) $(OBJECT2) $(OBJECT3) $(OBJECT4) $(OBJECT5) $(OBJECT6) $(OBJECT7) $(OBJECT8) $(OBJECT9) $(OBJECTA) $(OBJECTB) $(OBJECTC)
+OBJECT1 = gui.o
+OBJECT2 = SenderWindow.o
+OBJECT3 = MainWindow.o
+OBJECT4 = func.o
+OBJECT5 = Data.o
+OBJECT6 = GenderWindow.o
+OBJECT7 = 
+OBJECT8 = ReceiverWindow.o
+OBJECT9 = AddReceiverWindow.o
+OBJECTA = AtachmentWindow.o
+OBJECTB = About.o
+OBJECTC = SendWindow.o
+CC = g++
+ADD = pkg-config --cflags --libs gtk+-2.0
+DEBUG = 
+DEP = $(DEBUG) -c -Wno-deprecated
+CCFLAGS = $(DEBUG) -o $(PROGRAM)
+$(PROGRAM) : $(SOURCE)
+	$(CC) $^ $(CCFLAGS) `$(ADD)`
+	
+clean :
+	rm -f $(OBJECT) $(PROGRAM) *.gch
+
+BASEINSTDIR = /usr/local/
+INSTDIR = $(BASEINSTDIR)bin/
+DOCDIR = /usr/local/share/doc/SpamTeacher/
+README = README
+
+ADDPROG = sendEmail.pl
+
+install : $(PROGRAM)
+	@if [ -d $(INSTDIR) ]; \
+		then \
+		cp $(PROGRAM) $(INSTDIR)$(PROGRAM); \
+		chmod a+x $(INSTDIR)$(PROGRAM); \
+		chmod og-w $(INSTDIR)$(PROGRAM); \
+		cp $(ADDPROG) $(INSTDIR)$(ADDPROG); \
+		chmod a+x $(INSTDIR)$(ADDPROG); \
+		chmod og-w $(INSTDIR)$(ADDPROG); \
+		if [ ! -d $(DOCDIR) ]; \
+			then \
+			mkdir $(DOCDIR); \
+		fi; \
+		cp $(README) $(DOCDIR)$(README); \
+		chmod og-w $(DOCDIR)$(README); \
+		echo "Installed in $(INSTDIR)"; \
+	else \
+		echo "Sorry, $(INSTDIR) does not exist"; \
+	fi

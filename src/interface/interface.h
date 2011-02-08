@@ -1,0 +1,2 @@
+//#define GTK
+#define QT

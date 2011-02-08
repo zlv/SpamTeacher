@@ -1,0 +1,440 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"X-Virgin-Header: remove this line if you change anything in the header.\n"
+"X-Language: ru_RU\n"
+"X-Source-Language: C\n"
+
+#. ts-context About
+#: About.cpp:14
+msgid "About"
+msgstr "О программе"
+
+#. ts-context AddMultReceiverWindow
+#~ msgid "Template settings"
+#~ msgstr "Установка шаблона"
+
+#. ts-context AddMultReceiverWindow
+#: AddMultReceiverWindow.cpp:8
+msgid "Adding many receivers"
+msgstr "Добавить много отправителей"
+
+#. ts-context AddMultReceiverWindow
+#: AddMultReceiverWindow.cpp:11
+msgid "Enter addreses to this field, they would be added to list"
+msgstr ""
+"Пишите в строку (разделяя пробелами) или в столбик адреса, которые хотите "
+"добавить"
+
+#. ts-context AddMultReceiverWindow
+#: AddMultReceiverWindow.cpp:13
+msgid "&Ok"
+msgstr "&Готово"
+
+#. ts-context AddMultReceiverWindow
+#: AddMultReceiverWindow.cpp:14
+msgid "&Cancel"
+msgstr "&Отмена"
+
+#. ts-context AddReceiverWindow
+#: AddReceiverWindow.cpp:7
+msgid "AddReceiver"
+msgstr "Добавить получателя"
+
+#. ts-context AddReceiverWindow
+#: AddReceiverWindow.cpp:9
+msgid "Name"
+msgstr "Имя"
+
+#. ts-context AddReceiverWindow
+#: AddReceiverWindow.cpp:10
+msgid "Receiver name"
+msgstr "Имя получателя"
+
+#. ts-context AddReceiverWindow
+#: AddReceiverWindow.cpp:11
+msgid "e-mail"
+msgstr "адрес"
+
+#. ts-context AddReceiverWindow
+#: AddReceiverWindow.cpp:12
+msgid "Receiver e-mail"
+msgstr "Адрес получателя"
+
+#. ts-context AddReceiverWindow
+#: AddReceiverWindow.cpp:14
+msgid "ok"
+msgstr "Готово"
+
+#. ts-context AddReceiverWindow
+#: AddReceiverWindow.cpp:15
+msgid "cancel"
+msgstr "Отмена"
+
+#. ts-context AtachmentWindow
+#: AtachmentWindow.cpp:11
+msgid "File"
+msgstr "Файл"
+
+#. ts-context AtachmentWindow
+#: AtachmentWindow.cpp:13
+msgid "Select file atachments"
+msgstr "Выбор вложений"
+
+#. ts-context AtachmentWindow
+#: AtachmentWindow.cpp:21
+msgid "&Add"
+msgstr "&Добавить"
+
+#. ts-context AtachmentWindow
+#: AtachmentWindow.cpp:22
+msgid "&Delete"
+msgstr "&Удалить"
+
+#. ts-context AtachmentWindow
+#: AtachmentWindow.cpp:24
+msgid "&Ok"
+msgstr "&Готово"
+
+#. ts-context AtachmentWindow
+#: AtachmentWindow.cpp:25
+msgid "&Cancel"
+msgstr "&Отмена"
+
+#. ts-context AtachmentWindow
+#: AtachmentWindow.cpp:120
+msgid "Select file"
+msgstr "Выбор файла"
+
+#. ts-context Data
+#: Data.cpp:313
+msgid "No message!\n"
+msgstr "Нет сообщения!"
+
+#. ts-context Data
+#: Data.cpp:317
+msgid "Nothing to send!\n"
+msgstr "Нечего отправлять!\n"
+
+#. ts-context Data
+#: Data.cpp:351
+msgid ") -- end of transmission"
+msgstr ") – конец передачи"
+
+#. ts-context GenderWindow
+#: GenderWindow.cpp:8
+msgid "Template settings"
+msgstr "Установка шаблона"
+
+#. ts-context GenderWindow
+#: GenderWindow.cpp:10
+msgid "mr"
+msgstr "ый"
+
+#. ts-context GenderWindow
+#: GenderWindow.cpp:11
+msgid "male"
+msgstr "м"
+
+#. ts-context GenderWindow
+#: GenderWindow.cpp:12
+msgid "mrs"
+msgstr "ая"
+
+#. ts-context GenderWindow
+#: GenderWindow.cpp:13
+msgid "female"
+msgstr "ж"
+
+#. ts-context GenderWindow
+#: GenderWindow.cpp:15
+msgid "&Ok"
+msgstr "&Готово"
+
+#. ts-context GenderWindow
+#: GenderWindow.cpp:16
+msgid "&Cancel"
+msgstr "&Отмена"
+
+#. ts-context MainWindow
+#: MainWindow.cpp:31
+msgid "MassDelivery"
+msgstr ""
+
+#. ts-context MainWindow
+#: MainWindow.cpp:56
+msgid "Sender options"
+msgstr "Настройки отправителя"
+
+#. ts-context MainWindow
+#: MainWindow.cpp:57
+msgid "Receivers options"
+msgstr "Настройки получателя"
+
+#. ts-context MainWindow
+#: MainWindow.cpp:58
+msgid "Atachments options(files)"
+msgstr "Настройки вложений"
+
+#. ts-context MainWindow
+#: MainWindow.cpp:59
+msgid "Send message"
+msgstr "Отправить сообщение"
+
+#. ts-context MainWindow
+#: MainWindow.cpp:68
+msgid "Name"
+msgstr "Имя"
+
+#. ts-context MainWindow
+#: MainWindow.cpp:69
+msgid "Gender"
+msgstr "Пол"
+
+#. ts-context MainWindow
+#: MainWindow.cpp:80
+msgid "Title:"
+msgstr "Заголовок:"
+
+#. ts-context MainWindow
+#: MainWindow.cpp:119
+msgid "&to Russian"
+msgstr "&На Английский(English)"
+
+#. ts-context MainWindow
+#: MainWindow.cpp:120
+msgid "Ctrl+L"
+msgstr ""
+
+#. ts-context MainWindow
+#: MainWindow.cpp:123
+msgid "&Clear all"
+msgstr "О&чистить"
+
+#. ts-context MainWindow
+#: MainWindow.cpp:124
+msgid "Ctrl+N"
+msgstr ""
+
+#. ts-context MainWindow
+#: MainWindow.cpp:127
+msgid "&Sender options"
+msgstr "Настройки &отправителя"
+
+#. ts-context MainWindow
+#: MainWindow.cpp:128
+msgid "Ctrl+S"
+msgstr ""
+
+#. ts-context MainWindow
+#: MainWindow.cpp:131
+msgid "&Receiver options"
+msgstr "Настройки &получателя"
+
+#. ts-context MainWindow
+#: MainWindow.cpp:132
+msgid "Ctrl+R"
+msgstr ""
+
+#. ts-context MainWindow
+#: MainWindow.cpp:135
+msgid "&Atachment options"
+msgstr "Настройки &вложений"
+
+#. ts-context MainWindow
+#: MainWindow.cpp:136
+msgid "Ctrl+E"
+msgstr ""
+
+#. ts-context MainWindow
+#: MainWindow.cpp:139
+msgid "Send &message"
+msgstr "&Отправить"
+
+#. ts-context MainWindow
+#: MainWindow.cpp:142
+msgid "&About"
+msgstr "О &программе"
+
+#. ts-context MainWindow
+#: MainWindow.cpp:145
+msgid "&Exit"
+msgstr "В&ыход"
+
+#. ts-context MainWindow
+#: MainWindow.cpp:146
+msgid "Ctrl+Q"
+msgstr ""
+
+#. ts-context MainWindow
+#: MainWindow.cpp:156
+msgid "Settings will be changed after restart"
+msgstr "Настройки будут изменены после перезапуска программы"
+
+#. ts-context Menu
+#: MainWindow.cpp:178
+msgid "&File"
+msgstr "&Файл"
+
+#. ts-context Menu
+#: MainWindow.cpp:188
+msgid "&Help"
+msgstr "&Помощь"
+
+#. ts-context PassWindow
+#: PassWindow.cpp:12 PassWindow.cpp:13
+msgid "Enter password"
+msgstr "Введите пароль"
+
+#. ts-context PassWindow
+#: PassWindow.cpp:22
+msgid "Password:"
+msgstr "Пароль:"
+
+#. ts-context PassWindow
+#: PassWindow.cpp:25
+msgid "&Ok"
+msgstr "&Готово"
+
+#. ts-context PassWindow
+#: PassWindow.cpp:26
+msgid "&Cancel"
+msgstr "&Отмена"
+
+#. ts-context QObject
+#~ msgid ""
+#~ "#sender adress\n"
+#~ "senderEmail = sender@server\n"
+#~ "#title\n"
+#~ "theme = title\n"
+#~ "#login, on serv\n"
+#~ "server = someserver\n"
+#~ "user = login\n"
+#~ "#password = \n"
+#~ "#receivers\n"
+#~ "dest =\n"
+#~ "adress1@mail1 + Ð¼ receiver1\n"
+#~ "adress1@mail2 + Ð¼ receiver2\n"
+#~ msgstr ""
+#~ "#адрес для отправки\n"
+#~ "senderEmail = отправитель@почта\n"
+#~ "#заголовок\n"
+#~ "theme = Заголовок\n"
+#~ "#сервер, пользователь, пароль\n"
+#~ "server = сервер\n"
+#~ "user = пользователь\n"
+#~ "#password = \n"
+#~ "#далее адреса\n"
+#~ "dest =\n"
+#~ "адрес1@почта1 + м Получатель1\n"
+#~ "адрес2@почта2 + м Получатель2\n"
+
+#. ts-context ReceiverWindow
+#: ReceiverWindow.cpp:15
+msgid "Name"
+msgstr "Имя"
+
+#. ts-context ReceiverWindow
+#: ReceiverWindow.cpp:16
+msgid "e-mail"
+msgstr "адрес"
+
+#. ts-context ReceiverWindow
+#: ReceiverWindow.cpp:17
+msgid "Man?"
+msgstr "Мужчина?"
+
+#. ts-context ReceiverWindow
+#: ReceiverWindow.cpp:18
+msgid "Enabled"
+msgstr "Включен"
+
+#. ts-context ReceiverWindow
+#: ReceiverWindow.cpp:20
+msgid "Set receivers"
+msgstr "Выбор получателей"
+
+#. ts-context ReceiverWindow
+#: ReceiverWindow.cpp:28
+msgid "&Add"
+msgstr "&Добавить"
+
+#. ts-context ReceiverWindow
+#: ReceiverWindow.cpp:29
+msgid "&Delete"
+msgstr "&Удалить"
+
+#. ts-context ReceiverWindow
+#: ReceiverWindow.cpp:31
+msgid "&Ok"
+msgstr "&Готово"
+
+#. ts-context ReceiverWindow
+#: ReceiverWindow.cpp:32
+msgid "&Cancel"
+msgstr "&Отмена"
+
+#. ts-context ReceiverWindow
+#: ReceiverWindow.cpp:46
+msgid "Add many receivers"
+msgstr "Добавить много получателей"
+
+#. ts-context SendWindow
+#: SendWindow.cpp:11
+msgid "Delivery process"
+msgstr "Процесс передачи"
+
+#. ts-context SendWindow
+#: SendWindow.cpp:13
+msgid "Send message: "
+msgstr "Отправка сообщения:"
+
+#. ts-context SendWindow
+#: SendWindow.cpp:82
+msgid "Wrong password! Please, try again"
+msgstr "Неправильный пароль! Попробуйте ещё раз"
+
+#. ts-context SenderWindow
+#: SenderWindow.cpp:11
+msgid "Sender options"
+msgstr "Настройки отправителя"
+
+#. ts-context SenderWindow
+#: SenderWindow.cpp:16
+msgid "Sender e-mail"
+msgstr "Адрес отправителя"
+
+#. ts-context SenderWindow
+#: SenderWindow.cpp:19
+msgid "Your name"
+msgstr "Ваше имя"
+
+#. ts-context SenderWindow
+#: SenderWindow.cpp:22
+msgid "Outgoing server(smtp)"
+msgstr "Сервер исходящих сообщений(smtp)"
+
+#. ts-context SenderWindow
+#: SenderWindow.cpp:25
+msgid "Username"
+msgstr "Имя пользователя"
+
+#. ts-context SenderWindow
+#: SenderWindow.cpp:28
+msgid "Password"
+msgstr "Пароль"
+
+#. ts-context SenderWindow
+#: SenderWindow.cpp:31
+msgid "&Ok"
+msgstr "&Готово"
+
+#. ts-context SenderWindow
+#: SenderWindow.cpp:32
+msgid "&Cancel"
+msgstr "&Отмена"

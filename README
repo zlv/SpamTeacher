@@ -1,0 +1,42 @@
+MassDelivery v0.8 (http://sourceforge.net/projects/spamteacher/)
+Программа для рассылки сообщений с произвольного сервера smtp.
+Создатель: Евгений Лежнин(zlv) <z_lezhnin@mail2000.ru>
+Инструкция:
+Вы можете собрать программу с помощью qmake. В системе должны быть установлены библиотеки qt (http://qt.nokia.com/). Положите всё необходимое (MassDelivery, icon.xpm, en.qm, ru.qm, sendEmail.pl, README) в одну папку.
+1. Введите всю необходимую информацию в окна настроек("Настройки отправителя", "Настройки получателя", "Настройки вложений").
+2. Введите заголовок письма и сообщение. Вы можете вставлять шаблоны %name и %ms|%fs в сообщение с помощью кнопок "Имя" и "Пол" соответственно, эти шаблоны будут заменены текстом для каждого получателя индивидуально: шаблон %name будет заменён на имя получателя, а шаблон пола будет заменён на одну из указанных вами строк в зависимости от пола.
+3. Отправляйте сообщение! Не забудьте ввести перед этим пароль и необходимую информация об отправителе и получателях.
+Дополнительная информация:
+1. Если вы хотите отправить сообщение нескольким адресатам вы можете написать после слова "dest: " на следующей строке в файле "data" адреса в таком формате:
+2. Модуль отправки вложений требует доработки.
+#only
+<адрес1>
+<адрес2>
+...
+<адресN>
+2. Теперь программа отправляет сообщения самостоятельно, без помощи программы sendEmail.
+3. Для установки приложения Makefile должен содержать:
+install:   
+	$(COPY) $(TARGET) /usr/local/bin/
+	chmod +x $(TARGET)
+	$(MKDIR) /usr/local/share/MassDelivery
+	$(MKDIR) /usr/local/share/MassDelivery/doc/
+	$(COPY) *.qm /usr/local/share/MassDelivery
+	$(COPY) README /usr/local/share/MassDelivery/doc/
+	$(COPY) *.xpm /usr/local/share/MassDelivery/
+
+uninstall:
+	rm -fr /usr/local/share/MassDelivery
+	rm -f /usr/local/bin/$(TARGET)
+Разработка:
+Программа поддерживает только русский и английский языки, если вы желаете помочь в разработке, либо в переводе, мы всегда вам рады на сайте проекта http://sourceforge.net/projects/spamteacher/, ждём вас.
+содержит только единственный модуль стороннего кода base64, если вы можете разработать свой, всегда пожалуйста.
+Требует доработки и отслеживания ошибок модуль отправки сообщений(send.cpp).
+...........................
+Program for mass delivery of email through smtp.
+Created by: Yevgeny Lezhnin(zlv): <z_lezhnin@mail2000.ru>
+Program needs qt libraries (http://qt.nokia.com/). Copy all necessary files (MassDelivery, icon.xpm, en.qm, ru.qm, sendEmail.pl, README) in one directory.
+Develop:
+Program needs help in localization and develop, you can join us on sourceforge page http://sourceforge.net/projects/spamteacher/, you are welcome.
+Contain only one module created not by zlv: base64, if you can do alternative for it, you are welcome, too.
+Very need help in send.cpp.
